@@ -23,36 +23,38 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={"https://user-images.githubusercontent.com/72031522/192807635-d833cb79-41d8-419f-9898-6ac98eec5b94.JPG"}
+              imgPath={"https://user-images.githubusercontent.com/72031522/192809888-5daf0490-3904-4c11-ad20-a9edf4dd4592.JPG"}
               isBlog={false}
-              title="LYST Colne"
-              description="Personal Chat Room or Workspace to share resources and hangout with friends build with react.js, Material-UI, and Firebase. Have features which allows user for realtime messaging, image sharing as well as supports reactions on messages."
-              ghLink="https://github.com/harshjoundal/LYST"
-              demoLink="https://lystlyst.netlify.app/"
+              title="Full stack BlogApp"
+              description="My personal blog app build with MERN stack technology.Have features which allows user to post blogs create account,edit blogs.Has the all the functionalities which full stack app shoud have."
+              ghLink="https://github.com/harshjoundal/full_stack_blogapp"
+              demoLink="#"              
             />
           </Col>
-
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={"https://user-images.githubusercontent.com/72031522/192809246-830bddb2-9ef5-4e14-be3b-6df7a3f1afb1.JPG"}
               isBlog={false}
               title="Tracking Time website clone"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
+              description="
+This is an time tracking website clone . You can put your daily tasks to do and also you can track your tasks by the website. This page as the name suggests has the homepage functionality. This is the landing page, You will find website overview from this page."
               ghLink="https://github.com/harshjoundal/TimeTracker"
               demoLink="https://time-tracking-clone.netlify.app/"
             />
           </Col>
 
-          <Col md={4} className="project-card">
+                    <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={"https://user-images.githubusercontent.com/72031522/192809888-5daf0490-3904-4c11-ad20-a9edf4dd4592.JPG"}
+              imgPath={"https://user-images.githubusercontent.com/72031522/192807635-d833cb79-41d8-419f-9898-6ac98eec5b94.JPG"}
               isBlog={false}
-              title="Full stack BlogApp"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="#"
-              demoLink="#"              
+              title="LYST Colne"
+              description="This is LYST website clone.LYST is a fashion technology company, and premium shopping app.This website is build with reactjs,Chakra-UI and mongodb.have features which allow user to create account,login,search products,buy products,payment getway etc..."
+              ghLink="https://github.com/harshjoundal/LYST"
+              demoLink="https://lystlyst.netlify.app/"
             />
           </Col>
+
+
 
           {/* <Col md={4} className="project-card">
             <ProjectCard
